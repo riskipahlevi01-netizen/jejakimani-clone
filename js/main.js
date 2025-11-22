@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 	})();
 
 	// Muat header dan footer
-	// await loadComponent("header", `${basePath}/components/header.html`);
-	// await loadComponent("footer", `${basePath}/components/footer.html`);
+	await loadComponent("header", `${basePath}/components/header.html`);
+	await loadComponent("footer", `${basePath}/components/footer.html`);
 
 });
 
